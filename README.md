@@ -4,6 +4,27 @@
 
 This project presents a method for estimating the 3D orientation trajectory of a rigid body using datasets from an Inertial Measurement Unit (IMU). While gyroscopes provide angular velocity, the collected data tends to drift over time. To address this, the Projected Gradient Descent (PGD) algorithm is employed to minimize a cost function under the unit quaternion transformation. Furthermore, the optimized orientation estimates are applied to build panorama images from the associated camera data.
 
+## Requirements
+
+- **Python**: 3.8 or higher
+- **Dependencies**: See `requirements.txt`
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+**Required Libraries:**
+
+- NumPy
+- Pandas
+- Matplotlib
+- SciPy
+- OpenCV
+- PyTorch
+- transforms3d
+
 ## Project Structure
 
 ```
